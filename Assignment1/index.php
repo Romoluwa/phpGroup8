@@ -1,3 +1,4 @@
+<!-- THIS PAGE IS FOR THE LOGIN PART -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +35,6 @@
             <div class="mb-3">
                 <select name="std" id="" class="form-select w-50 m-auto">
                     <option value="role">Role</option>
-                    <option value="candidate">candidate</option>
                     <option value="voter">Voter</option>
                 </select>
             </div>
