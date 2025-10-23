@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online voting system</title>
 <link href="/Assignment1/CSS/style.css" rel="stylesheet">
+
     <!-- Bootstrap css -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -39,7 +40,7 @@
                 </select>
             </div>
             <button type="submit" class="btn btn-outline-info btn-dark text-light my-4">Login</button>
-            <p class="">Don't have an account?<a href="#" class="text-white">Register here</a></p>
+            <p class="">Don't have an account?<a href="registration.php" class="text-white">Register here</a></p>
             
         </form>
     </div> 
