@@ -89,3 +89,55 @@ input::placeholder, select, option {
 .login-text a:hover {
   text-decoration: underline;
 }
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+    .main{
+        background-color: rgb(14, 143, 194);
+        height: 400vh;
+        font-size: 20px;
+       
+        text-align: center;
+        position: fixed;
+        width: 4000px;
+        background-size: cover;
+    }
+    .reg{
+        margin-top: 100px;
+       
+    }
+    .cred input{
+        font-size: 20px;
+        width: 600px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .cred select{
+        font-size: 20px;
+        width: 600px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    button.reg-btn{
+background-color: black;
+padding: 10px;
+
+    }
+    button.reg-btn:hover{
+background-color: rgba(0, 0, 0, 0.5);
+    }
+    button a{
+        color: blanchedalmond;
+        text-decoration: none;
+        padding: 40px;
+        font-size: 15px;
+    }
+    button a:hover{
+        color: black;
+    }
