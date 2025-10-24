@@ -7,7 +7,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="../style2.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             <h1>Create Account</h1>
             <h3>Join the community to impact meaningfully in the society</h3>
 
-            <form action="registration.php" method="POST">
+            <form action="../mysql/register.php" method="POST" enctype="mltipart/form-data">
                 <input type="text" name="firstname" placeholder="Enter your Firstname" required>
                 <input type="text" name="lastname" placeholder="Enter your Lastname" required>
                 <input type="text" name="matricno" placeholder="Enter your Matric Number" required>

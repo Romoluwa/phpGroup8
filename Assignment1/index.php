@@ -33,10 +33,9 @@
       </form>
 
       <p class="login-text">Don’t have an account? 
-        <a href="registration.php">Register here</a>
+        <a href="./partials/registration.php">Register here</a>
       </p>
     </div>
   </div>
 </body>
-   
-</html> 
+</html>  
