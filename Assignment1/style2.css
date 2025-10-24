@@ -6,7 +6,7 @@
 
 body {
   background: linear-gradient(135deg, #007bff, #004085);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #333;
   height: 100vh;
   display: flex;
@@ -26,6 +26,7 @@ body {
   background-color: #fff;
   border-radius: 10px;
   padding: 40px;
+  margin: auto;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
@@ -42,7 +43,8 @@ h3 {
   font-size: 0.95rem;
 }
 
-input, select {
+input,
+select {
   width: 100%;
   padding: 10px 15px;
   margin: 10px 0;
@@ -51,7 +53,9 @@ input, select {
   font-size: 0.95rem;
 }
 
-input::placeholder, select, option {
+input::placeholder,
+select,
+option {
   font-size: 0.9rem;
   color: #777;
 }
@@ -62,7 +66,7 @@ input::placeholder, select, option {
   margin-top: 15px;
   border: none;
   border-radius: 6px;
-  background: linear-gradient(90deg, #0062E6, #33AEFF);
+  background: linear-gradient(90deg, #0062e6, #33aeff);
   color: #fff;
   font-weight: 600;
   cursor: pointer;
@@ -70,7 +74,7 @@ input::placeholder, select, option {
 }
 
 .btn-primary:hover {
-  background: linear-gradient(90deg, #0051C7, #2890E0);
+  background: linear-gradient(90deg, #0051c7, #2890e0);
   transform: translateY(-2px);
 }
 
@@ -81,7 +85,7 @@ input::placeholder, select, option {
 }
 
 .login-text a {
-  color: #0062E6;
+  color: #0062e6;
   text-decoration: none;
   font-weight: 500;
 }
@@ -89,55 +93,53 @@ input::placeholder, select, option {
 .login-text a:hover {
   text-decoration: underline;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    display: flex;
-    justify-content: center;
+body {
+  display: flex;
+  justify-content: center;
 }
-    .main{
-        background-color: rgb(14, 143, 194);
-        height: 400vh;
-        font-size: 20px;
-       
-        text-align: center;
-        position: fixed;
-        width: 4000px;
-        background-size: cover;
-    }
-    .reg{
-        margin-top: 100px;
-       
-    }
-    .cred input{
-        font-size: 20px;
-        width: 600px;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    .cred select{
-        font-size: 20px;
-        width: 600px;
-        padding: 10px;
-        margin-top: 20px;
-    }
-    button.reg-btn{
-background-color: black;
-padding: 10px;
+.main {
+  background-color: rgb(14, 143, 194);
+  height: 400vh;
+  font-size: 20px;
 
-    }
-    button.reg-btn:hover{
-background-color: rgba(0, 0, 0, 0.5);
-    }
-    button a{
-        color: blanchedalmond;
-        text-decoration: none;
-        padding: 40px;
-        font-size: 15px;
-    }
-    button a:hover{
-        color: black;
-    }
+  text-align: center;
+  position: fixed;
+  width: 4000px;
+  background-size: cover;
+}
+.reg {
+  margin-top: 100px;
+}
+.cred input {
+  font-size: 20px;
+  width: 600px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.cred select {
+  font-size: 20px;
+  width: 600px;
+  padding: 10px;
+  margin-top: 20px;
+}
+button.reg-btn {
+  background-color: black;
+  padding: 10px;
+}
+button.reg-btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+button a {
+  color: blanchedalmond;
+  text-decoration: none;
+  padding: 40px;
+  font-size: 15px;
+}
+button a:hover {
+  color: black;
+}

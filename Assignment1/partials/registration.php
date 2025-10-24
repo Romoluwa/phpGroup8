@@ -33,7 +33,7 @@
             </form>
 
             <p class="login-text">
-                Already have an account? <a href="index.php">Login</a>
+                Already have an account? <a href="../index.php">Login</a>
             </p>
         </div>
 </body>
