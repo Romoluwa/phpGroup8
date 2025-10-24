@@ -8,7 +8,6 @@ Ibitoye Marvellous 23/1768 (gitID-mavis147)
 Aluko Mayowa 23/2377 (gitID-alukom)
 Ilodigwe Miracle 23/0939 (gitID-Folan-123)
 Eneremadu Mitchel 23/2560 (gitID-Mictehl)
-Nnajiaku Nancy 23/2478 (gitID-Nancynnaj)
 
 CONTRIBUTIONS
 Moromoluwa Adesina: I buit the UI of the login page

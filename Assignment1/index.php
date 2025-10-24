@@ -35,7 +35,7 @@
             </div>
             <div class="mb-3">
                 <select name="std" id="" class="form-select w-50 m-auto">
-                    <option value="role">Role</option>
+                    <option value="candidate">Candidate</option>
                     <option value="voter">Voter</option>
                 </select>
             </div>
