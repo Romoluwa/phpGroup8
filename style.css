@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 380px;
+  margin: 50px auto;
+  background: rgba(15, 15, 15, 0.9);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px #00eaff44;
+  backdrop-filter: blur(10px);
+  transition: transform 0.5s ease;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+input, select, button {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+input, select {
+  background: #111;
+  color: #fff;
+}
+
+button {
+  background: linear-gradient(90deg, #00eaff, #0077ff);
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #0077ff, #00eaff);
+}
+
+.nav {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 25px;
+  text-align: right;
+  box-shadow: 0 0 10px #00eaff33;
+}
+
+a {
+  color: #00eaff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.result-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.result-table th, .result-table td {
+  padding: 10px;
+  border-bottom: 1px solid #00eaff55;
+}
+
+.result-table th {
+  color: #00eaff;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+
+
+table a { color:#00eaff; text-decoration:none; }
+table a:hover { text-decoration:underline; }
+
+
+
+.badge-voted {
+  display:inline-block;
+  background: linear-gradient(90deg,#2ecc71,#27ae60);
+  color: #001;
+  padding: 6px 10px;
+  border-radius: 12px;
+  font-weight: 700;
+  margin-left:10px;
+  box-shadow: 0 0 12px rgba(46,204,113,0.15);
+}
+
+.vote-message {
+  margin-top:10px;
+  padding:10px;
+  border-radius:8px;
+  background: rgba(0,0,0,0.45);
+  color: #00ffca;
+  display:none;
+}
+.disabled-overlay { opacity:0.6; pointer-events:none; }
+.candidate { margin:6px 0; }
